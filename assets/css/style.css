@@ -19,26 +19,45 @@ li {
 
 .main-nav {
     background-color: aqua;
-    /* overflow: auto; */
     text-align: left;   
+}
+
+.main-body {
+    background-color: blueviolet;
+    height:960px;
 }
 .main-nav .name{
     background-color:#4aaaa5;
     color:white;
-    padding: 20px;
+    padding: 40px;
     float:left;
 }
 
-.nav{
-    float:right;   
+.navlinks{
+    float:right; 
+    padding: 0px 20px 0px 0px;  
 
 }
 
-#frame {
+.frame {
     width:960px;
 }
 
+.section {
+    background-color: red;
+    width:200px;
+    height:200px;
+    float:left;
 
+}
+
+.sidebar {
+    background-color: orange;
+    width:200px;
+    height:200px;
+    float:left;
+
+}
 
 
 

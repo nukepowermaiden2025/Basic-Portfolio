@@ -13,10 +13,10 @@
 
     <body>
         <div class="container"> <!--This is the whole page-->
-            <div class="main-nav clearfix">
-                <nav id="frame">
+            <div class="main-nav clearfix frame">
+                <nav>
                     <h1 class="name">Kourtney Reynolds</h1>
-                    <ul class="nav">
+                    <ul class="navlinks">
                         <!--This class is considered a class within a class-->
                         <li><a href="#">About</a></li><!--# this will take me to the home page-->
                         <li><a href="#">Portfolio</a></li><!--will have a new page open my resume-->
@@ -24,6 +24,17 @@
                     </ul>                    
                 </nav>
             </div>
+            <!-- following the logic from before of setting the frame width and make this
+            block fixed to itself independent on the other elements -->
+            <div class="main-body clearfix frame">
+                <!-- this will be the paragraph and cat photo floating inside -->
+                <div class="section"></div>
+
+                <div class="sidebar"></div>
+                  
+            </div>
+
+            <footer class="footer frame"></footer>
         </div>
     </body>
 </html>
