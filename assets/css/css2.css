@@ -1,5 +1,21 @@
+
 /*This is the css for the first week of homework. points to myprofile.html*/
 /*Author: Kourtney.Reynolds@gmail.com*/
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* Float Container */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* Generic classes (body, a, p, h1, etc.) */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 h1{
     margin:0px ;
@@ -10,12 +26,15 @@ li {
     display:inline-block;
 
 }
-.clearfix::after{
-    content: "";
-    clear: both;
-    display: block;
 
+body {
+    margin: auto;
 }
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* #header */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 .main-nav {
     background-color: aqua;
@@ -26,6 +45,11 @@ li {
     background-color: blueviolet;
     height:960px;
 }
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* #nav-menu */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
 .main-nav .name{
     background-color:#4aaaa5;
     color:white;
@@ -39,11 +63,21 @@ li {
 
 }
 
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* #main-content */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+
+
+
 .frame {
     width:960px;
 }
 
-.section {
+section {
     background-color: red;
     width:200px;
     height:200px;
@@ -58,6 +92,3 @@ li {
     float:left;
 
 }
-
-
-
