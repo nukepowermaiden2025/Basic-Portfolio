@@ -29,15 +29,24 @@
             </header>
             <!-- following the logic from before of setting the frame width and make this
             block fixed to itself independent on the other elements -->
-            <section class="main-body clearfix frame">
+            <section>
                 <!-- this will be the paragraph and cat photo floating inside -->
                 
                 <article>
 
                     <h2>About Me</h2>
 
-                    <img src="assets/images/me.jpg" alt="Profile Picture">
+                    <div class="clearfix">
+                        <img class="resize" src="assets/images/me.jpg" alt="Profile Picture">
+                        
+                        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
+                            voluptatem? Earum, numquam expedita. In, velit? Adipisci beatae 
+                            necessitatibus hic repudiandae voluptas omnis voluptatibus ipsam
+                            qui repellendus tenetur, consequatur nulla libero.
+                        </p>
+                     </div>
 
+                    <br><br>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Deleniti minima reiciendis nobis expedita ullam maxime dolorum a porro ea, 
                         voluptate, voluptatem asperiores sequi? Aspernatur architecto nostrum ipsum 
@@ -47,14 +56,21 @@
                     </p>
 
                 </article>
-                
-                <aside>
-                    <h3>Connect with Me</h3>
-                </aside>
+            </section>   
+            <aside>
+                <h3>Connect with Me</h3>
+                <ul id="iconbox">
+                    <a ><img class="wdicon" src="./assets/images/github.jpg"></a>
+                    <a ><img class="wdicon" src="./assets/images/linkedin.jpg"></a>
+                    <a ><img class="wdicon" src="./assets/images/stackoverflow.jpg"></a>
+                    
+                </ul>
+            </aside>
                   
-            </section>
-
-            <footer class="footer frame"></footer>
+            
+        <footer class="footer frame clearfixb">
+            <p>Here is a footer </p>
+        </footer>
         </div>
     </body>
 </html>

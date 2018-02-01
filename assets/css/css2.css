@@ -17,8 +17,10 @@
 /* Generic classes (body, a, p, h1, etc.) */
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
-h1{
-    margin:0px ;
+
+
+h1 h2 h3 {
+    background-color: thistle;
 }
 
 li {
@@ -27,10 +29,10 @@ li {
 
 }
 
-body {
-    margin: auto;
+p {
+    background-color: gold;
+    display: inline;
 }
-
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 /* #header */
@@ -41,54 +43,82 @@ body {
     text-align: left;   
 }
 
-.main-body {
-    background-color: blueviolet;
-    height:960px;
-}
-
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 /* #nav-menu */
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
-.main-nav .name{
+.main-nav .name {
     background-color:#4aaaa5;
     color:white;
-    padding: 40px;
+    padding: 20px;
     float:left;
+    
 }
 
-.navlinks{
-    float:right; 
-    padding: 0px 20px 0px 0px;  
-
+.navlinks {
+    float:right;
+    background-color: black; 
 }
-
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 /* #main-content */
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
+.container {
+    background-color: purple;
+    margin:auto;
+    overflow: auto;
+    width: 960px;
 
+    
+}
 
-
-
-
-.frame {
-    width:960px;
+.resize {
+    max-width: 25%;
+    max-height: 25%;
+    float:left;
 }
 
 section {
-    background-color: red;
-    width:200px;
-    height:200px;
+    /* display:inline-block; */
+    background-color:grey;
     float:left;
+    overflow:hidden;
+    width:650px;
 
 }
 
-.sidebar {
-    background-color: orange;
-    width:200px;
-    height:200px;
-    float:left;
+article {
+    margin:auto;
+    width:650px;
+}
+
+aside {
+    background-color: green;
+    display:inline-block;
+    overflow: hidden;
+    width: 270px;
 
 }
+
+#iconbox {
+    float:center;
+    margin:auto;
+}
+
+
+.wdicon {
+
+    width: 75px;
+    height:75px;
+    margin: auto;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* #Footer */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+
+
