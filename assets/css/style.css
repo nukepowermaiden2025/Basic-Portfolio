@@ -179,9 +179,14 @@ ul.div {
     position:relative;
 }
 
+
+
 #water {
     display: inline;
     position: relative;
+    text-align: center;
+    color:#ffffff;
+    background: #4aaaa5;
     text-align: center;
 }
 
@@ -189,19 +194,33 @@ ul.div {
 #arches {
     display: inline;
     position:relative;
-    float:left;
+    color:#ffffff;
+    background: #4aaaa5;
+    text-align: center;
 }
 
 #dog {
     display: inline;
     position:relative;
-    float:left;
+    color:#ffffff;
+    background: #4aaaa5;
+    text-align: center;
 }
 
 #screen {
     display: inline;
     position: relative;
-    float:right;
+    color:#ffffff;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+#tech {
+    display: inline;
+    position: relative;
+    color:#ffffff;
+    background: #4aaaa5;
+    text-align: center;
 }
 
 
