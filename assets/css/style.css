@@ -19,7 +19,7 @@
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 hr {
-    line-height: 1px;
+    line-height: 4px;
     clear:both;
 }
 
@@ -42,6 +42,7 @@ p {
     color: #777777;
     display: inline;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
@@ -167,6 +168,79 @@ footer {
     
 }
 
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* #Porfolio */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
 
+ul.div {
+    display:inline;
+    position:relative;
+}
+
+#water {
+    display: inline;
+    position: relative;
+    text-align: center;
+}
+
+
+#arches {
+    display: inline;
+    position:relative;
+    float:left;
+}
+
+#dog {
+    display: inline;
+    position:relative;
+    float:left;
+}
+
+#screen {
+    display: inline;
+    position: relative;
+    float:right;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* #Contact */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+form {
+    margin: auto;
+}
+
+#coname {
+    line-height:20px;
+    width:600px;
+    margin:auto;
+    font-size:12px;
+    
+    
+}
+
+#coemail {
+    height:20px;
+    width:600px;
+    margin:auto;
+    font-size:12px;
+    
+}
+
+#comessage {
+    height:200px;
+    width:600px;
+    margin:auto;
+    font-size:12px;
+    
+}
+
+#submit {
+    background: #4aaaa5;
+    color:#ffffff;
+    border:none;
+    padding: 5px 10px 5px 10px;
+}

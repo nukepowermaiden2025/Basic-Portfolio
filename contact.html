@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<!--This is my week one homework assignment for U of A WebDev Bootcamp 2018.-->
+<!--Author: Kourtney.Reynolds@gmail.com-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--Need to google what the meta name does-->
+        <meta name="viewpoint" content="width=device-width,intiial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+
+        <title>Kourtney Reynolds</title>
+    </head>
+
+    <body>
+    
+        <div class="container clearfix"> <!--This is the whole page-->
+            <header class="main-nav clearfix frame">
+                <nav>
+                    <h1 class="name">Kourtney Reynolds</h1>
+                    <ul class="navlinks">
+                        <!--This class is considered a class within a class-->
+                        <li><a href="./index.html">About</a></li><!--# this will take me to the home page-->
+                        <li><a href="./portfolio.html">&#124 Portfolio &#124</a></li><!--will have a new page open my resume-->
+                        <li><a href="./contact.html">Contact</a></li><!--will take me to my contact info, address, phone, email-->
+                    </ul>                    
+                </nav>
+                
+            </header>
+            <hr>
+            
+
+        <!-- following the logic from before of setting the frame width and make this
+        block fixed to itself independent on the other elements -->
+            <div id="content">
+                <section>
+                    <!-- this will be the paragraph and cat photo floating inside -->
+                    
+                    <article>
+
+                        <h1>Contact</h1>
+
+                        <hr>
+
+                        <form> 
+                            <p>Name</p> <br>
+                            <input id="coname" type="text" name="name" placeholder="Joe Smith"><br>
+                            <br>
+
+                            <p >Email</p><br>
+                            <input id="coemail" type="text" name="name" placeholder="joesmith@gmail.com"><br>
+                            <br>
+
+                            <p>Message</p><br>
+                            <textarea  id="comessage" rows="2" cols="15"  placeholder="Write Message here"></textarea><br>
+                            <br> <br>
+
+                            <input id="submit" type="submit" value="Submit" >
+
+                        </form>
+                            
+                    
+
+
+                    </article>
+                </section>   
+                <aside>
+                    <h2>Connect with Me</h2>
+                    <hr>
+                    <ul id="iconbox">
+                        <a ><img class="wdicon" src="./assets/images/github.jpg"></a>
+                        <a ><img class="wdicon" src="./assets/images/linkedin.jpg"></a>
+                        <a ><img class="wdicon" src="./assets/images/stackoverflow.jpg"></a>
+                        
+                    </ul>
+                </aside>
+            
+            </div>     
+        
+            <footer>Copyright 2018</footer>
+
+        </div>
+        
+    </body>
+</html>
